@@ -1,62 +1,153 @@
-<!DOCTYPE html>
-<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-<html lang="en-us">
+<!doctype html>
+<html lang="en">
 
 <head>
+
+
+<link rel="stylesheet" href="styles.css">
 <meta charset="utf-8">
-<title>Hello...</title>
-<style type="text/css">
-#mainContent {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: xx-large;
-	font-weight: bold;
-	background-color: #E3F0FB;
-	border-radius: 4px;
-	padding: 10px;
-	text-align: center;
-}
-.buttonStyle {
-	border-radius: 4px;
-	border: thin solid #F0E020;
-	padding: 5px;
-	background-color: #F8F094;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-	font-weight: bold;
-	color: #663300;
-	width: 75px;
+    <title>Issac's amazing website</title>
+  </head>
+ 
+
+
+
+
+
+
+
+
+
+
+
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.buttonStyle:hover {
-	border: thin solid #FFCC00;
-	background-color: #FCF9D6;
-	color: #996633;
-	cursor: pointer;
-}
-.buttonStyle:active {
-	border: thin solid #99CC00;
-	background-color: #F5FFD2;
-	color: #669900;
-	cursor: pointer;
+li {
+    float: left;
 }
 
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 </style>
 </head>
-
 <body>
-<div id="mainContent">
-<p id="helloText">?</p>
-<button id="clickButton" class="buttonStyle">click me</button>
-</div>
-<script> 
-var myButton = document.getElementById("clickButton");
-var myText = document.getElementById("helloText");
 
-myButton.addEventListener('click', doSomething, false)
+<ul>
+  <li><a class="home.html" href="home.html">Home</a></li>
+   <li><a href="qt3.14s.html">QT3.14's</a></li>
+  <li><a href="https://www.amazon.com/Cheetos-XXtra-Flamin-Hot-Crunchy/dp/B00FY7WBKG">Heaven</a></li>
+  <li><a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8&safe=active&ssui=on#safe=active&ssui=on&q=portfolio">Portfolio</a></li>
+  <li><a href="https://docs.google.com/document/d/19FQOA_FJI8gxUJEsabNocb1MyCkD3PKZpaxVCApAT6I/edit#heading=h.gjdgxs">Calculus</a></li>
+<li class="dropdown">
+    <a href="#" class="dropbtn">Games</a>
+    <div class="dropdown-content">
+      <a href="http://www.cartoonnetwork.com/games/knd/slamdunk/index.html">S.L.A.M.D.U.N.K.</a>
+      <a href="http://www.cartoonnetwork.com/games/eds/wheelsoffury/index.html">Cul-De-Sac Smash II</a>
+      <a href="http://www.cartoonnetwork.com/games/tj/trapomatic/index.html">Trap-o-Matic</a>
+    </div>
+  </li>
+</ul>
 
-function doSomething() {
-	myText.textContent = "hello, world!";
-}
-</script>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
 
 </body>
+
+
+
+<style>
+a {
+color: white;
+font-family: verdana; 
+font-size: 100%;
+}
+</style>
+
+
+
+
+
+<style>
+h1 {
+color: white;
+font-family: verdana; 
+font-size: 300%;
+}
+</style>
+   
+<body>
+
+
+
+
+
+
+    <h1>Black Websites Matter</h1>
+ <center><div>     
+<img src="images/DBZ3.jpg" alt="DBZ3" height="650";>
+	  
+<img src="images/DBZ.jpg" alt="pepe" height="250";>
+  </div></center>
+<h1> Im Issac Garcia, and this is my website. I work here with my white friend and my homie, Chrissy B. Everything in here has a code and a program. One thing Ive learned after 17 years  you never know what is gonna come through that door.
+</h1>
+
+
+</body>
+
+
+
+
+<body>
+
+<iframe src="http://www.raiders.com/" height="500" width="1250">
+</iframe> 
+<p> ANTS ARE AFFECTED BY GRAVITY</p>
+</body>
+
+
+
+  
+
 </html>
